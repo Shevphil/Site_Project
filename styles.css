@@ -1,0 +1,85 @@
+body {
+    background-color: lightgrey;
+    font-family: 'Raleway', times new roman;
+  }
+  nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 95px;
+    width: 100vw;
+    z-index 1;
+    } 
+  nav ul li {
+    float: left;
+    margin-right: 95px;
+    list-style-type: none;
+    text-align: right;
+  }
+  #brand {
+    float: center;
+   }
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Acme', times new roman;
+  }
+  .nav-link:hover {
+    color: darkgrey;
+    font-weight: bold;
+  }
+  #brand .nav-link {
+    color: white;
+    font-weight: 16pt;
+  }
+  #brand .nav-link:hover {
+    color: lightgrey;
+  }
+  h1 {
+    font-size: 60pt;
+  }
+  #home {
+    margin-top: 35px;
+    position: relative;
+    left: -8px;
+    width: 100vw;
+    height: 30vh;
+    padding-top: 3em;
+    background: url(https://images.unsplash.com/photo-1416230789844-1998de481fdc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80) center 75% no-repeat fixed;
+    background-size: cover;
+  }
+  .header-tag {
+    text-align: center;
+    color: black;
+  }
+  h3.header-tag {
+    margin-top: -30px;
+    font-size: 18pt;
+  }
+  h2 {
+    font-family:'Acme', times new roman;
+    color: black;
+    }
+  .main {
+    text-align: center;
+  }
+  #about {
+    margin-top: 60px;
+    display: inline-block;
+  }
+  #about-picture {
+    width: 30vw;
+    float: left;
+  }
+  #profile-pic {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 0.4em;
+    box-shadow: 2px 2px 2px black
+  }
+  #about-content {
+    width: 40vw;
+    float: right;
+  }
